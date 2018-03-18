@@ -1,0 +1,18 @@
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --oneline --graph --decorate
+	type = cat-file -t
+	dump = cat-file -p
+[user]
+	name = Natallia Lastavenka
+	email = n.lastavenka@godeltech.com
+[core]
+	editor = code
+[color]
+	branch = auto
+	interactive = auto
+	diff = auto
+	status = auto
